@@ -337,3 +337,4 @@ resource "aws_wafv2_web_acl" "centrim_waf_acl" {
     sampled_requests_enabled   = false
   }
 }
+
