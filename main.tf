@@ -273,6 +273,7 @@ resource "aws_s3_bucket_policy" "cloudtrail_policyv2" {
     ]
   })
 }
+# waf setup im webacl
 resource "aws_wafv2_web_acl" "centrim_waf_acl" {
   name        = "centrim-aus-stage"
   description = "WAF ACL for application security"
